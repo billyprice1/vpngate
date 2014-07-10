@@ -1,5 +1,12 @@
 #!/usr/bin/php
 <?php
+/**
+ * @filename    vpngate.php
+ * @description A set of handy tools to handle VPNGate entries
+ * @author      Gordon Yeu (Kuo-Cheng Yeu, aka kmd)
+ * @webpage     http://mikuru.tw
+ * @revision    $Format:%ci$ ($Format:%h$)
+ */
 define('DEBUG', TRUE);
 define('CSV_FILE', 'vpngate.csv');
 
