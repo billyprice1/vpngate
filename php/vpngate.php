@@ -7,7 +7,7 @@
  * @webpage     http://mikuru.tw
  * @revision    $Format:%ci$ ($Format:%h$)
  */
-define('DEBUG', TRUE);
+define('DEBUG', FALSE);
 define('CSV_FILE', 'vpngate.csv');
 
 if (DEBUG)
