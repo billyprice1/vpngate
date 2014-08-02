@@ -12,16 +12,16 @@ define('CSV_FILE', 'vpngate.csv');
 
 if (DEBUG)
 {
-    define('CSV_URL', 'http://127.0.0.1/~kmd/vpngate.csv');
+    define('CSV_URL', 'http://127.0.0.1/~kmd/' . CSV_FILE);
 }
 else
 {
     // Original URL got GFW'd, use mirror site.
     //define('CSV_URL', 'http://www.vpngate.net/api/iphone/');
-    define('CSV_URL', 'http://mikuru.tw/~kmd/vpngate/vpngate.csv');
+    define('CSV_URL', 'http://mikuru.tw/~kmd/vpngate/' . CSV_FILE);
 }
 
-// DO NOT change it, explicit assign value by key for better readability
+// DO NOT change it, explicitly assign values by key for better readability
 $key_list = array(
     0   => 'HostName',
     1   => 'IP',
