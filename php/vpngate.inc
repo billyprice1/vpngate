@@ -17,7 +17,7 @@ else
 {
     // Original URL got GFW'd, use mirror site.
     //define('CSV_URL', 'http://www.vpngate.net/api/iphone/');
-    define('CSV_URL', 'http://mikuru.tw/~kmd/vpngate/' . CSV_FILE);
+    define('CSV_URL', 'http://www.vpngate.net/api/iphone/' . CSV_FILE);
 }
 
 // DO NOT change it, explicitly assign values by key for better readability
